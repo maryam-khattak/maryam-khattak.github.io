@@ -52,7 +52,30 @@ section h2{font-size:1.9rem;margin-bottom:18px}
 .proj{background:#fff;border:1px solid var(--line);border-left:4px solid var(--violet);border-radius:8px;padding:20px 24px;max-width:none;width:100%;}
 .proj h3{font-size:1.25rem;margin-bottom:6px}
 .edu p{margin-bottom:12px}.edu b{color:var(--plum)}
-footer{margin-top:56px;background:var(--plum);color:#E9E2FA;padding:34px 0;font-size:.95rem}
+footer{
+    margin-top:56px;
+    background:var(--plum);
+    color:#E9E2FA;
+    padding:24px 0;
+    font-size:.95rem;
+}
+
+footer a{
+    color:#B6F0D5;
+    text-decoration:none;
+}
+
+.footer-content{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.footer-right{
+    display:flex;
+    gap:20px;
+}
+
 footer a{color:#B6F0D5}
 @media(max-width:760px){.axis,.row{grid-template-columns:1fr;gap:2px}.axis>div:first-child{display:none}.job{grid-template-columns:1fr;gap:4px}.cols{grid-template-columns:1fr}}
 </style></head>
@@ -116,8 +139,19 @@ footer a{color:#B6F0D5}
     <li>CCNA</li>
 </ul>
 
-<footer><div class="wrap">Open to data and reporting analyst roles. Reach me at <a href="mailto:maryamkhattak@hotmail.com">maryamkhattak@hotmail.com</a> or on <a href="https://www.linkedin.com/in/maryam-khattak">LinkedIn</a>.<br>&copy; 2026 Maryam Khattak</footer>
+<footer>
+    <div class="footer-content">
+        <div class="footer-left">
+            © 2026 Maryam Khattak
+        </div>
 
+        <div class="footer-right">
+            <a href="mailto:maryamkhattak@hotmail.com" title="Email">✉</a>
+            <a href="https://www.linkedin.com/in/maryam-khattak" target="_blank" title="LinkedIn">in</a>
+            <a href="https://github.com/maryam-khattak" target="_blank" title="Portfolio">⌂</a>
+        </div>
+    </div>
+</footer>
 <script>
 (function(){
 var y0=2013,y1=2027,rows=[
